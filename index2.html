@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .image {
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            width: 300px;
+            background: #fff;
+        }
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+        .image h3 {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Galeria de Imagens</h1>
+</header>
+
+<div class="image-container">
+    <div class="image">
+        <img src="file:///tmp/guest-s9hzzo/Downloads/766364_e402171ed3c84cadb5101ff6849a101b~mv2.webp" alt="Imagem 1">
+        <h3>Descrição da Imagem 1</h3>
+    </div>
+    <div class="image">
+        <img src="imagens/imagem2.jpg" alt="Imagem 2">
+        <h3>Descrição da Imagem 2</h3>
+    </div>
+    <div class="image">
+        <img src="imagens/imagem3.jpg" alt="Imagem 3">
+        <h3>Descrição da Imagem 3</h3>
+    </div>
+</div>
+
+</body>
+</html>
